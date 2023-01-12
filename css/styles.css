@@ -392,3 +392,48 @@
         width: 80%;
     }
 }
+
+/* Tablet */
+@media(max-width: 780px) {
+    .btn {
+        opacity: 1;
+    }
+
+    /* Event Form */
+    .form {
+        max-width: 40%;
+        margin-bottom: 2em;
+    }
+
+    /* Benefits Section */
+    .benefits {
+        width: 100%;
+        padding: auto;
+        gap: 2em;
+        justify-content: space-between;
+    }
+
+    .benefit .benefit-img {
+        width: 250px;
+    }
+
+}
+
+/* Laptop */
+@media(max-width: 1050px) {
+    .btn {
+        opacity: 1;
+    }
+
+    /* Event Form */
+    .form {
+        max-width: 45%;
+        margin-bottom: 2em;
+    }
+
+    /* Benefits Section */
+    .benefits {
+        gap: 2em;
+        justify-content: space-between;
+    }
+}
